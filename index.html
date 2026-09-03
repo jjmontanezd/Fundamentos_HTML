@@ -13,9 +13,26 @@
 
         <header>
             <nav>
-        
+                <div>
+                    <a href="#">
+                        <img src="assets\images/sena.svg" alt="logo Sena" 
+                        width="50"
+                    </a>
+                </div>
+
+                <div>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Sobre Mi</a></li>
+                        <li><a href="#">Habilidades</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
             </nav>
-        </header>   
+        </header> 
+
+        <hr> 
+
     <main>
         <!--Contenido principal de la pagina-->
                 <section>
@@ -60,6 +77,123 @@
                         </ol>
                     </div>
                 </section>
+
+                <hr>
+
+               <!--Contenidos Multimedia-->
+                <section>
+                    <h>Comtenido Multimedia</h>
+                    <div>
+                        <!--Imagenes-->
+                        <h4>Imagenes</h4>
+                        <center>
+                        <img src="assets/images/mustangs.jpg" alt="Imagen Mustangs" 
+                        width="300"
+                    </center>
+                    </div>
+                    <!--Videos-->
+                    <div>
+                        <h4>videos</h4>
+                        <center>
+                        <video width="500" height="340" controls>
+                            <source src="assets/videos/coding.mp4" type="Video/Mp4">
+                            Tu navegador no soporta el elemento de video
+                        </video>
+                        </center>
+                    </div>
+                    <!--Audios-->
+                    <div>
+                        <h4><Audios</h4>
+                        <center>
+                        <audio controls>
+                            <source src="assets/Adios/Cancion.mp3" type="audio/mp3>"
+                            Tu navegador no soporta el elemento de Audio
+                        </audio>
+                        </center>
+                        </div>
+
+                        <div>
+                            <center>
+                                <h4>Iframes - maps</h4>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63519.865227918286!2d-72.9651337086881!3d5.714349190705191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6a48a8ae9bc4e7%3A0x4577dc8f78e0764b!2sCentro%20Nacional%20Minero%20SENA!5e0!3m2!1ses-419!2sco!4v1788400405075!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                            </center>
+                        </div>
+                        <div>
+                            <center>
+                                <h5>Videos - youtube</h5>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/bJNztFQIkq0?si=KM1pr6dgih7Nbsp6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </center>
+                        </div>
+                </section>
+
+                <hr>
+
+                <!--Tablas-->
+                <section>
+
+                    <h3>Tabla Horario de Clases</h3>
+                    <table border="1">
+                        <tr><!--1ra fila-->
+                            <th>Dia</th> <!--primera columna-->
+                            <th>Competencias</th> <!--Segunda columna-->
+
+                        </tr>
+                        <tr>
+                            <td>Lunes</td>
+                            <td>Etica</td>
+                        </tr>
+                        <tr>
+                            <td>Martes</td>
+                            <td>Ingles</td>
+                        </tr>
+                        <tr>
+                            <td>Miercoles</td>
+                            <td>Tecnica</td>
+                        </tr>
+                        <tr>
+                            <td>Jueves</td>
+                            <td>Tecnica</td>
+                        </tr>
+                        <tr>
+                            <td>Viernes</td>
+                            <td>Tecnica</td>
+                        </tr>
+                    </table>
+                </section>
+
+                <hr>
+
+                <!--Formulario de Contacto-->
+                <section>
+                    <h3>Formulario de Contacto</h3>
+
+                    <form action="#" method="post">
+                        <label for="Nombre">Nombre</label>
+                        <input type="text" id="Nombre">
+                        <br>
+                        <label for="Mensaje">Mensaje</label>
+                        <textarea id="Mensaje"></textarea> 
+                        <br>
+                        <label for="correo">correo</label>
+                        <input type="email" id="correo">
+                        <br>
+                        <label for="telefono">telefono</label>
+                        <input type="tel" id="telefono">
+                        <br>
+                        <label for="archivo">archivo</label>
+                        <input type="file" id="archivo">
+                        <br>
+                        <label for="password">contraseña</label>
+                        <input type="password" id="password">
+                        <br>
+                        <label for="fecha">fecha</label>
+                        <input type="date" id="fecha">
+
+                          <button type="submit">Enviar mensaje</button>
+                
+                    </form>
+                </section>
+
 
     </main> 
 
